@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = ({ greeting }) => {
     return (
-      <h2 style={{color:"red"}}> {greeting} </h2>
+        <h2 style={{ color: "red" }}> {greeting} </h2>
     )
-  }
-  
-  export default ItemListContainer
+}
+
+export default ItemListContainer
